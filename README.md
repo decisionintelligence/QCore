@@ -10,3 +10,17 @@ How to run the model:
  * The data is managed in the [dataloader.py](utils/dataloader.py) file. 
  * Time-series data can be found in the `/data/` folder. The results will be inserted into a local database. 
  * Detailed information about all the parameters can be found in each execution file.
+
+ # Citation
+
+If you use the code, please cite the following paper:
+
+<pre>  
+@article{pvldb/Ca24,
+  author    = {David Campos and Bin Yang and Tung Kieu and Miao Zhang and Chenjuan Guo and Christian S. Jensen},
+  title     = {{QCore: Data-Efficient, On-Device Continual Calibration for Quantized Models}},
+  journal   = {{PVLDB}},
+  volume    = {17},
+  year      = {2024}
+}
+</pre> 
